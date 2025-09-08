@@ -39,6 +39,6 @@ spec:
       - name: http
         port: 3000
         targetPort: 3000
-      replicas: 2
+      replicas: 5
 
 
