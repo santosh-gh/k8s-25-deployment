@@ -1,7 +1,0 @@
-apiVersion: apps/v1
-kind: StatefulSet
-metadata:
-  name: rabbitmq
-spec:
-  serviceName: rabbitmq
-  replicas: 3

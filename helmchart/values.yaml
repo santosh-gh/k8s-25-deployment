@@ -11,7 +11,7 @@ orderService:
       orderQueuePort: "5672"
       orderQueueUsername: username
     image:
-      repository: acronlinestoredevuksouth001.azurecr.io/order
+      repository: e880613/order
       tag: v1
     resources:
       limits:
@@ -48,7 +48,7 @@ productService:
     env:
       aiServiceUrl: http://ai-service:5001/
     image:
-      repository: acronlinestoredevuksouth001.azurecr.io/product
+      repository: e880613/product
       tag: v1
     resources:
       limits:
@@ -96,7 +96,7 @@ storeFront:
   replicas: 1
   storeFront:
     image:
-      repository: acronlinestoredevuksouth001.azurecr.io/store-front
+      repository: e880613/store-front
       tag: v1
     resources:
       limits:
