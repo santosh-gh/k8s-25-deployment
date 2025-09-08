@@ -237,7 +237,8 @@
     docker hub
     git hub
     kubectl
-    Flux CD   
+    Flux CD
+    Helm Chart  
 
 # Docker Build and Push to Docker Hub
 
