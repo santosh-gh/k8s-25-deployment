@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+metadata:
+  name: online-store
+namespace: prod
+resources:
+  - ../../kustomize-manifests/config/base/
+  - ../../kustomize-manifests/rabbitmq/overlays/prod/
+  - ../../kustomize-manifests/order/overlays/prod/
+  - ../../kustomize-manifests/product/overlays/prod/
+  - ../../kustomize-manifests/store-front/overlays/prod/
