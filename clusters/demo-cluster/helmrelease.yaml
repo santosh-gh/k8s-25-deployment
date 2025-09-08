@@ -11,7 +11,7 @@ spec:
       chart: ./helmchart/
       sourceRef:
         kind: GitRepository
-        name: helmchart
+        name: flux-system
         namespace: flux-system
   values:
     orderService:
