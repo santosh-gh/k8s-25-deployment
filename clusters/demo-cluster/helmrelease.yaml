@@ -5,13 +5,13 @@ metadata:
   namespace: default
 spec:
   interval: 1m
-  releaseName: release1
+  releaseName: helmchart
   chart:
     spec:
       chart: ./helmchart/
       sourceRef:
         kind: GitRepository
-        name: helmcharts
+        name: helmchart
         namespace: flux-system
   values:
     orderService:
